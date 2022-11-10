@@ -1,0 +1,189 @@
+/* ------ Le Header TOTAL ------ */
+
+@media all and (max-width: 992px) {
+    .decompteur-mobile {
+        display: block;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .decompteur-mobile {
+        display: none;
+    }
+}
+
+/* ------ Le Header Top ------ */
+
+.mission {
+    position: absolute;
+    background-color: rgb(14, 3, 117);
+    display: inline-flex;
+    width: 100%;
+    font-size: 13px;
+    font-family: 'Khand', sans-serif;
+}
+
+.decompteurTime {
+    color: #fff;
+    display: flex;
+    font-weight: 100;
+    text-align: center;
+}
+
+.decompteurTime>div {
+    display: flex;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.decompteurTime>div>span {
+    display: flex;
+    text-align: center;
+}
+
+.icon {
+    color: yellow;
+}
+
+#meteo-texte {
+    font-family: 'Khand', sans-serif;
+    color: white;
+    margin-top: 0;
+    display: inline;
+}
+
+/* ------ Le Header Top (FIN)------ */
+
+/* ------ Le Header ------ */
+
+header {
+    font-family: 'Khand', sans-serif;
+    position: relative;
+    top: 18px;
+}
+
+.container-fluid {
+    background-color: rgb(8, 0, 80);
+    height: 100%;
+}
+
+#imglogo {
+    max-height: 60px;
+}
+
+#navbar {
+    background-color: rgb(8, 0, 80);
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    background: linear-gradient(to top, #ffffff 0%, rgba(0, 128, 255, 0.525) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+
+a:hover {
+    background-size: 100% 100%;
+}
+
+#navbar a {
+    background-size: 0% 0%;
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:hover {
+    animation: underline 1s both;
+}
+
+@keyframes underline {
+    from {
+        background-size: 0% 0%;
+    }
+
+    100% {
+        background-size: 100% 100%;
+    }
+}
+.nav-item {
+    margin: 0 15%;
+    width: 100px;
+}
+
+smalltext {
+    text-align: center;
+    display: flex;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.social>li>a {
+    color: white;
+}
+
+/* ------ Le Header (FIN DE CSS) ------ */
+
+/*move your body*/
+
+/*fin du body*/
+
+/*-----FOOTER-----*/
+
+@media screen and (max-width: 360px) {
+    .li-footer>li>a {
+        text-decoration: none;
+    }  
+}
+
+@media screen and (min-width: 992px) {
+    .li-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .reseaux-sociaux {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+footer {
+    background-color: rgb(8, 0, 80);
+}
+
+hr {
+    height: 2px;
+    border: 5px;
+    background-color: white;
+    opacity: 1 !important;
+}
+
+.li-footer {
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+ }
+
+.li-footer>li>a {
+    padding: 0;
+    margin: 0 15px 0 0;
+    color: white;
+    text-decoration: none;
+ }
+
+.reseaux-sociaux {
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+ }
+
+.reseaux-sociaux>li>a {
+    text-decoration: none;
+    color: white;
+ }
